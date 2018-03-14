@@ -24,6 +24,12 @@ public class SearchTest {
         // add your tests here
         System.out.println(search.longestWord(strings));
         System.out.println(search.countUnique(strings));
+        System.out.println(search.mostFrequent(strings));
+        System.out.println("find: " + search.findElement(strings,"the"));
+        System.out.println(search.countGreaterOrEqual(strings,"its"));
+        System.out.println(search.countGreater(strings,"guardian"));
+        System.out.println("between: " + search.countBetween(strings, "first", "they"));
+        System.out.println(search.countMatches(strings, "on","l"));
     }
     
 }
